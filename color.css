@@ -188,3 +188,44 @@ input {
     display: block;
     padding-right: 100px;
 }
+
+/* grad section */
+
+.grd-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+
+
+.grad-title {
+    margin-bottom: 20px;
+
+}
+
+.grad {
+    background-image: url(./images/some.jpeg);
+    background-size: cover;
+    height: 100vh;
+    margin: 200px 150px;
+    border-radius: 10px;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.grd-btn {
+    background-color: white border: none;
+    border-radius: 7px;
+    color: blue;
+    width: 170.11px;
+    height: 58px;
+    font-size: 20px;
+    border: none;
+}
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
