@@ -1,0 +1,190 @@
+/* header section */
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-bottom: 130px;
+}
+
+.head-section {
+    background-image: url('./images/banner/banner3.png');
+    background-size: cover;
+    height: 100vh;
+    background-color: aqua;
+
+}
+
+
+.head-items {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    margin: 120px 160px;
+
+}
+
+
+
+.head-title {
+    font-weight: 700;
+    font-size: 60px;
+    color: pink;
+
+}
+
+.head-details {
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.head-btn {
+    width: 160px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 20px;
+    color: pink;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: white;
+}
+
+/* main section */
+/* section about  failure*/
+ul li {
+    list-style: none;
+    color: color: #444343;
+    padding: 10px 20px;
+}
+
+ul li::marker {
+    content: '✓';
+    color: green;
+
+}
+
+.my-fai-sec-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: aqua;
+}
+
+.my-fai-sec-det {
+    color: color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+
+
+}
+
+.my-failure-section {
+    display: flex;
+    padding: 0px 206px;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.content-sec {
+    padding: 0px 50px;
+    margin-left: 20px;
+}
+
+/* my plans section */
+.my-plans {
+    margin-bottom: 130px;
+}
+
+.my-pln-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 60px;
+}
+
+.my-pln-itms {
+    display: flex;
+    padding: 0px 150px;
+}
+
+.plan-tilte {
+    font-weight: 650;
+    font-size: 28px;
+    color: lightslategrey;
+    margin: 20px 0px;
+}
+
+.plan-dets {
+    font-weight: 400;
+    font-size: 22px;
+    color: #737272;
+
+
+}
+
+.plan-content {
+    padding-left: 50px;
+    text-align: center;
+}
+
+/* footer section */
+.footer-sec {
+    background-color: black;
+    width: 1600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 0px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+
+}
+
+.footer-dets {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 20px 0px;
+
+}
+
+.footr-info {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.form-title-footer {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+input {
+    background-color: transparent;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    padding: 21px;
+    margin-bottom: 20px;
+}
+
+.footer-info-button {
+    background-color: blue;
+    border: none;
+    border-radius: 7px;
+    color: whitesmoke;
+    width: 170.11px;
+    height: 58px;
+    font-size: 20px;
+}
+
+.form {
+    display: block;
+    padding-right: 100px;
+}
