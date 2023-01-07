@@ -203,7 +203,7 @@ input {
     margin-bottom: 20px;
 
 }
-
+/* used a bit gradient here */
 .grad {
     background-image: url(./images/some.jpeg);
     background-size: cover;
@@ -212,6 +212,7 @@ input {
     border-radius: 10px;
     padding-left: 60px;
     padding-top: 60px;
+    background-image: linear-gradient(skyblue, white); */
 }
 
 .grd-btn {
